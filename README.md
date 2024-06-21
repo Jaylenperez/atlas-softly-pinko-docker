@@ -9,4 +9,4 @@ Round Robin Load Balancing:
 This method distributes incoming traffic sequentially across multiple servers, ensuring each server gets an equal share of requests. For example, with three servers (A, B, C), requests are assigned in a rotating manner: first to A, then B, then C, and the cycle repeats. This simple approach prevents any single server from becoming overloaded, though it might not be suitable for applications with uneven workload patterns. For the purposes of this project, it is an effective method for load balancing.
 
 
-![Image](/docker.png)
+![Image](/docker.jpg)
