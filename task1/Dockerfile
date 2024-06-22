@@ -23,3 +23,4 @@ EXPOSE 5252
 CMD ["python3", "/app/api.py"]
 
 # How to build: docker build -t image1 .
+# How to run: docker run -p 5252:5252 -it --rm --name softly-pinko-task1 image1
